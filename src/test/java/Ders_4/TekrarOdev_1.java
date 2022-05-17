@@ -27,6 +27,12 @@ public class TekrarOdev_1 {
     @BeforeMethod
     public void beforeMethod() {
 
+        String titleGoogle = driver.getTitle();
+
+        System.out.println("GoogleTitle => " + titleGoogle);
+
+
+
     }
     @Test
     public void test1() throws InterruptedException {
